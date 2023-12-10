@@ -54,7 +54,7 @@
 /* display */
 @media (max-width:740px) {
     .hero-body{
-        height: 200px;
+        height: 250px;
     }
     .nav-body{
         padding-top: 10px;
@@ -64,7 +64,7 @@
         width: 90%;
     }
     .hero-text{
-        height: calc(200px - 100px);
+        height: calc(300px - 100px);
         /* change height on responsive imp */
     }
 }
