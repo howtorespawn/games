@@ -64,6 +64,6 @@
 /* display */
 @media (max-width:740px) {
     .hero-body{
-        height: 300px;
+        height: 250px;
     }
 }
