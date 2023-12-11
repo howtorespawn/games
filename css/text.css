@@ -1,13 +1,13 @@
 .hero-links a{
     font-family: sans-serif;
-    color: #ffffff;
+    color: var(--text);
     text-decoration: none;
     font-size: 25px;
     font-weight: 700;
 }
 .hero-text{
     font-size: 1.5rem;
-    color: #f4ffeb;
+    color: var(--text);
 }
 
 /* fonts */
@@ -26,13 +26,25 @@
 @media (max-width:1023px) {
     .hero-body{
         height: 500px;
+        margin-top: 60px;
     }
     .nav-body{
-        padding-top: 20px;
+        width: 100%;
+        position: relative;
+        bottom:60px;
     }
     .nav-main-body{
+        background-color: var(--background);
+        width: 100%;
+        height: 60px;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hero-logo{
         height: 40px;
-        width: 90%;
+        padding-left: 10px;
     }
     .hero-text{
         height: calc(500px - 100px);
@@ -42,29 +54,16 @@
 /* fonts */
 @media (max-width:740px) {
     .hero-links a{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
-    .hero-logo{
-        height: 20px;
-    }
+    
     .hero-text{
-        font-size: 0.5rem;
+        opacity: 0;
     }
 }
 /* display */
 @media (max-width:740px) {
     .hero-body{
-        height: 250px;
-    }
-    .nav-body{
-        padding-top: 10px;
-    }
-    .nav-main-body{
-        height: 30px;
-        width: 90%;
-    }
-    .hero-text{
-        height: calc(300px - 100px);
-        /* change height on responsive imp */
+        height: 300px;
     }
 }
