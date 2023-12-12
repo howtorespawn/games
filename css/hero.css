@@ -40,7 +40,7 @@
     width: 50%;
     padding-left: 8%;
 }
-@media (min-width:1023px) {
+@media (min-width:740px) {
     .nav-body{
         padding-top: 30px;
         display: flex;
