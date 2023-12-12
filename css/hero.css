@@ -1,10 +1,7 @@
 .hero-body{
-    background-color: #1B1F20;
     background-image: linear-gradient(130deg, rgba(255,255,255,0) 38%, #000000d5 100%),
     url(../media/logo/5430170-stray-game-video-game.jpg);
     background-size: cover;
-    background-repeat: repeat-x;
-    height: 100vh;
     width: 100%;
 }
 .hero-logo{
@@ -39,25 +36,4 @@
     height: 100%;
     width: 50%;
     padding-left: 8%;
-}
-@media (min-width:740px) {
-    .nav-body{
-        padding-top: 30px;
-        display: flex;
-        justify-content: center;
-    }
-    .nav-main-body{
-        background-color: #20202056;
-        /* background-color: #19192456; */
-
-        backdrop-filter: blur(5px);
-        height: 70px;
-        width: 90%;
-        border-radius: 40px/60px;
-    
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 10px 0px 10px;
-    }
 }

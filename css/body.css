@@ -18,3 +18,61 @@
         display: flex;
     }
 }
+/* hero for pc */
+@media (max-width:1024px) and (orientation:portrait) {
+    .hero-body{
+        margin-top: 0px;
+        height: 550px;
+    }
+    .nav-body{
+        width: 100%;
+        position:relative;
+        bottom:0px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-main-body{
+        background-color: #20202056;
+        /* background-color: #19192456; */
+
+        backdrop-filter: blur(5px);
+        height: 70px;
+        width: 90%;
+        border-radius: 40px/60px;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px 0px 10px;
+    }
+}
+/* universal */
+@media (orientation:landscape) {
+    .hero-body{
+        margin-top: 0px;
+        height: 100vh;
+    }
+    .nav-body{
+        width: 100%;
+        position:relative;
+        bottom:0px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-main-body{
+        background-color: #20202056;
+        /* background-color: #19192456; */
+
+        backdrop-filter: blur(5px);
+        height: 70px;
+        width: 90%;
+        border-radius: 40px/60px;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px 0px 10px;
+    }
+}
